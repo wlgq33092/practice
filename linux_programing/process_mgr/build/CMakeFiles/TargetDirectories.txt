@@ -1,2 +1,0 @@
-/home/parallels/practice/practice/linux_programing/process_mgr/build/CMakeFiles/ProcessMgr.dir
-/home/parallels/practice/practice/linux_programing/process_mgr/build/CMakeFiles/test1.dir
