@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././include/Log.h
+stdio.h
+-
+
+.././include/ProcessMgr.h
+iostream
+-
+string
+-
+vector
+-
+stdlib.h
+-
+unistd.h
+-
+signal.h
+-
+sys/types.h
+-
+sys/wait.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+Log.h
+-
+
+.././include/ProcessMgrError.h
+
+/home/parallels/practice/practice/linux_programing/process_mgr/src/ProcessMgr.cpp
+ProcessMgr.h
+/home/parallels/practice/practice/linux_programing/process_mgr/src/ProcessMgr.h
+ProcessMgrError.h
+/home/parallels/practice/practice/linux_programing/process_mgr/src/ProcessMgrError.h
+
