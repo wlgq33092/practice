@@ -30,7 +30,7 @@ public:
     void run();
     void runCmd(std::string cmd);
     void monitor(pid_t pid);
-    int addOneCProc();
+    int addOneCProc(std::string bin);
     void addCProcs(int cproc_num);
 
     bool isUnderControl(pid_t pid);
