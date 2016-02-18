@@ -1,18 +1,12 @@
-#include <iostream>
-#include <string>
-#include <stdlib.h>
-
-#include <unistd.h>
-#include <signal.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-#include <sys/stat.h>
-#include <fcntl.h>
+#include "ProcessMgr.h"
 
 using namespace std;
 
 int main() {
     pid_t pid;
+
+    ProcessMgr pMgr;
+    pMgr.run();
 
     pid = fork();
 
